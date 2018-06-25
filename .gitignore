@@ -1,0 +1,9 @@
+.idea/
+rightMoveTest.iml
+.settings
+.classpath
+.project
+.factorypath
+target/
+/.apt_generated/
+.factorypath
