@@ -41,7 +41,6 @@ public class Hooks {
             final byte[] screenshot = ((TakesScreenshot) WebDriverFactory.getWebDriver()).getScreenshotAs(OutputType.BYTES);
             scenario.embed(screenshot, "image/png");
         }
-
         WebDriverFactory.quitWebDriver();
     }
 }
